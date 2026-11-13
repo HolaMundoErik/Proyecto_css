@@ -2,9 +2,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: rgb(255, 255, 255);
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: medium;
-    line-height: normal;
+    font-family: "Poppins", Arial, sans-serif;
 }
 
 header {
@@ -23,19 +21,19 @@ header {
 }
 
 .cabecera {
-    width: 100%;
+    width: 90%;
     display: flex;
     flex-direction: column;
     align-items: center;    
     justify-content: center;
-    gap: 15px;
-    padding: 20px;
+    gap: 30px;
+    padding: 15px;
     box-sizing: border-box;
 }
 
 .logo-nav {
-    width: 900px;          
-    max-width: 200%;        
+    width: 100%;          
+    max-width: 100%;        
     height: auto;
     display: block;
     margin: 0 auto;       
@@ -121,11 +119,11 @@ aside {
     border-radius: 12px;
     padding: 16px;
 }
-
 .footer {
     background-color: #000000;
     padding: 20px;
     text-align: center;
-    color: #ff0000e3;
-    border-top: 3px solid #ebe7e7;
+    color: hsla(0, 0%, 100%, 0.89);
+    font-style: italic;
+    border-top: 3px solid #fffdfd;
 }
