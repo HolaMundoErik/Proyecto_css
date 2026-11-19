@@ -140,3 +140,23 @@ footer li,
 .footer li {
     color: #ffffff;
 }
+
+.btn-catalogo {
+    display: inline-block;
+    background-color: #0b253a;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 12px 22px;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 16px;
+    margin: 10px 0 20px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-catalogo:hover,
+.btn-catalogo:focus {
+    background-color: #48cae4;
+    color: #0b253a;
+}
+
