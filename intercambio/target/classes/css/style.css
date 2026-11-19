@@ -119,11 +119,24 @@ aside {
     border-radius: 12px;
     padding: 16px;
 }
+
+footer,
 .footer {
     background-color: #000000;
     padding: 20px;
     text-align: center;
-    color: hsla(0, 0%, 100%, 0.89);
+    color: #ffffff;
     font-style: italic;
     border-top: 3px solid #fffdfd;
+}
+
+footer p,
+footer a,
+footer span,
+footer li,
+.footer p,
+.footer a,
+.footer span,
+.footer li {
+    color: #ffffff;
 }
