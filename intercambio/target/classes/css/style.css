@@ -9,7 +9,7 @@ header {
     width: 100%;
     margin: 0;
     padding: 0;
-    background-color: #ffffff;
+    background-color: #181c20;
 }
 
 .cabecera-principal {
@@ -20,30 +20,35 @@ header {
     flex-direction: column;
 }
 
-.cabecera {
-    width: 90%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;    
-    justify-content: center;
-    gap: 30px;
-    padding: 15px;
-    box-sizing: border-box;
-}
-
-.logo-nav {
-    width: 100%;          
-    max-width: 100%;        
-    height: auto;
-    display: block;
-    margin: 0 auto;       
-}
-
 .banner-img {
     width: 100%;
     height: auto;
     display: block;
     object-fit: cover;
+}
+
+.cabecera {
+    width: 100%;
+    max-width: none;
+    margin: 0;
+    padding: 0;
+    background-color: #181c20;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.logo-nav {
+    width: 100%;
+    max-width: none;
+    height: auto;
+    max-height: 250px;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+    margin: 0;
 }
 
 nav {
@@ -159,4 +164,3 @@ footer li,
     background-color: #48cae4;
     color: #0b253a;
 }
-
